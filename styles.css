@@ -1,0 +1,222 @@
+.container {
+    background-color: #1F2937;
+    font-family: 'Lucida Sans';
+    color: #F9FAF8;
+    border-radius: 15px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.about-us,.join-us,.download {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: #CD8B7C;
+}
+
+a:hover {
+    font-size: large;
+    cursor: pointer;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.slogan {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 66px;
+}
+
+.text {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+#sign-up {
+    width: 180px;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: #3882F6;
+    border-radius: 20px;
+    outline: none;
+    border: 0;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.sloganPic {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sloganPic img {
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+    
+}
+
+.offers {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    margin-top: 30px;
+    color: #1F2937;
+}
+
+h4 {
+    color: mintcream;
+    text-shadow: 0 0 5px black ;
+    margin-top: 20px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px; 
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 25px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-10px)
+}
+
+.card1 {
+    background-image: url(/Images/slideshow/slide-1.jpg);
+}
+
+.card2 {
+    background-image: url(Images/slideshow/slide-2.jpg);
+}
+
+.card3 {
+    background-image: url(Images/slideshow/slide-0.jpg);
+}
+
+.card4 {
+    background-image: url(Images/slideshow/slide-5.jpg);
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+q, cite{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote {
+    margin: 35px;
+}
+
+.cite {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 35px;
+}
+
+.join-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px;
+}
+
+.join-menu {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+.creator-question {
+    text-align: center;
+}
+
+.creator-question p {
+    margin: 35px;
+    color: #E5E7EB;
+}
+
+#become-creator {
+    width: 180px;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: #3882F6;
+    border-radius: 20px;
+    border: 0.5px solid #E5E7EB;
+    outline: none;
+    margin: 35px;
+    color: #fff;
+}
+
+.footer-container {
+    background-color: #1F2937;
+    font-family: 'Lucida Sans';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+footer {
+    margin: 40px;
+    color: #CD8B7C;
+    text-align: center;
+    font-weight: bold;
+}
