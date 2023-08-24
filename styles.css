@@ -35,10 +35,12 @@ a {
     margin: 10px;
     text-decoration: none;
     color: #CD8B7C;
+    transition: transform 0.5s;
 }
 
 a:hover {
     font-size: large;
+    transform: translateY(-10px);
     cursor: pointer;
 }
 
@@ -132,7 +134,7 @@ h4 {
 }
 
 .card:hover {
-    transform: translateY(-10px)
+    transform: translateY(-10px);
 }
 
 .card1 {
@@ -163,7 +165,7 @@ q, cite{
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    color: #1F2937;
+    color: 	#FFFAFA;
 }
 
 .quote {
