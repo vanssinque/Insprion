@@ -1,3 +1,7 @@
+body {
+    background-color: #4C545F;
+}
+
 .container {
     background-color: #1F2937;
     font-family: 'Lucida Sans';
@@ -74,8 +78,12 @@ header {
     border-radius: 20px;
     outline: none;
     border: 0;
-    margin-top: 30px;
     color: #fff;
+    margin-top: 30px;
+}
+
+#sign-up:hover {
+    opacity: 0.6;
 }
 
 .sloganPic {
@@ -100,7 +108,7 @@ header {
 h2 {
     margin-bottom: 25px;
     margin-top: 30px;
-    color: #1F2937;
+    color: #fff5ee;
 }
 
 h4 {
@@ -128,7 +136,7 @@ h4 {
 }
 
 .card1 {
-    background-image: url(Images/slideshow/slide-1.jpg);
+    background-image: url(Images/slideshow/slide-6.jpg);
 }
 
 .card2 {
@@ -144,7 +152,7 @@ h4 {
 }
 
 .quote-container {
-    background-color: #E5E7EB;
+    background-color: #797F87;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,7 +188,7 @@ q, cite{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #3882F6;
+    background-color: #314158;
     border-radius: 15px;
 }
 
@@ -197,12 +205,16 @@ q, cite{
     width: 180px;
     font-size: 12px;
     padding: 12px 0;
-    background-color: #3882F6;
+    background-color: #314158;
     border-radius: 20px;
     border: 0.5px solid #E5E7EB;
     outline: none;
     margin: 35px;
     color: #fff;
+}
+
+#become-creator:hover {
+    background-color: #202D3F;
 }
 
 .footer-container {
